@@ -24,18 +24,17 @@ const WalletConnect = ({ onWalletConnected }) => {
                 const initData = await hc.init(metadata, "testnet", false);
 
                 console.log("✅ Returned from init:", initData);
+
                 if (!initData) {
                     throw new Error("No initData returned — possible relay failure or network issue");
                 }
 
-                console.log("🟢 HashConnect.init complete:", initData);
-
                 hc.pairingEvent.once((pairingData) => {
                     console.log("🔗 Pairing event received:", pairingData);
-                    if (pairingData.accountIds && pairingData.accountIds.length > 0) {
+                    if (pairingData.accountIds?.length > 0) {
                         const id = pairingData.accountIds[0];
                         setWalletId(id);
-                        onWalletConnected && onWalletConnected(id);
+                        onWalletConnected?.(id);
                         console.log("✅ Wallet connected:", id);
                     }
                 });
@@ -43,7 +42,7 @@ const WalletConnect = ({ onWalletConnected }) => {
                 if (initData.savedPairings.length > 0) {
                     const id = initData.savedPairings[0].accountIds[0];
                     setWalletId(id);
-                    onWalletConnected && onWalletConnected(id);
+                    onWalletConnected?.(id);
                     console.log("💾 Loaded saved pairing:", id);
                 }
 
@@ -57,7 +56,7 @@ const WalletConnect = ({ onWalletConnected }) => {
         initHashConnect();
     }, [onWalletConnected]);
 
-    const connectWallet = async () => {
+    const connectWallet = () => {
         if (!hashconnect) return;
         console.log("🧩 Connecting to local wallet...");
         hashconnect.connectToLocalWallet();
@@ -81,3 +80,4 @@ const WalletConnect = ({ onWalletConnected }) => {
 };
 
 export default WalletConnect;
+
