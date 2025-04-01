@@ -1,0 +1,9 @@
+{
+    "name": "Majestic Phoenix",
+    "image": "https://right-apricot-lark.myfilebase.com/ipfs/Qme6c2fcRaL2Fmzi2LWNaga2uHY1Gf6wWshdwYUtJCnKc2",
+    "description": "A reborn phoenix horse with flames of rebirth.",
+    "attributes": [
+        { "trait_type": "Rarity", "value": "Legendary" },
+        { "trait_type": "Element", "value": "Fire" }
+    ]
+}

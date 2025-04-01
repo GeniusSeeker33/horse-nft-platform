@@ -1,0 +1,9 @@
+{
+    "name": "Spotted Spirit",
+    "image": "https://right-apricot-lark.myfilebase.com/ipfs/QmYTBDmKc8bkQ6MHHJ8cmjzUfSBdvWwQf5ggefcPZ88549",
+    "description": "A spirit horse with unique markings and ethereal energy.",
+    "attributes": [
+        { "trait_type": "Rarity", "value": "Rare" },
+        { "trait_type": "Pattern", "value": "Spotted" }
+    ]
+}

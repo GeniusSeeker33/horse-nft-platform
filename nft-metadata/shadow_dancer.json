@@ -1,0 +1,9 @@
+{
+    "name": "Shadow Dancer",
+    "image": "https://right-apricot-lark.myfilebase.com/ipfs/Qmf6eTZjjNnzepDXdtXbirXUySAM96FPNUA96bxCQtBYh1",
+    "description": "A stealthy horse that moves with the darkness.",
+    "attributes": [
+        { "trait_type": "Rarity", "value": "Rare" },
+        { "trait_type": "Skill", "value": "Silent Steps" }
+    ]
+}

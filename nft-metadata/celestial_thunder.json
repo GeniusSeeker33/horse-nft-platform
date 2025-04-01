@@ -1,0 +1,16 @@
+{
+    "name": "Celestial Thunder",
+    "image": "https://right-apricot-lark.myfilebase.com/ipfs/QmYidzF7y764PgAKavA5bKaLfpBxjcEZy6uw1B4uMm4h8V",
+    "description": "A horse with the power of celestial storms.",
+    "attributes": [
+      {
+        "trait_type": "Rarity",
+        "value": "Mythical"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Thunder"
+      }
+    ]
+  }
+  

@@ -1,0 +1,9 @@
+{
+    "name": "Eclipse Dancer",
+    "image": "https://right-apricot-lark.myfilebase.com/ipfs/QmVF5cwmV1h9UDB1MpYRySNht48CtLUGJHaWEqFcKC6wHk",
+    "description": "A horse that moves with the grace of a lunar eclipse.",
+    "attributes": [
+        { "trait_type": "Rarity", "value": "Rare" },
+        { "trait_type": "Celestial", "value": "Moonlight" }
+    ]
+}

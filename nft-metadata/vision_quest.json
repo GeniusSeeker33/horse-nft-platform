@@ -1,0 +1,9 @@
+{
+    "name": "Vision Quest",
+    "image": "https://right-apricot-lark.myfilebase.com/ipfs/QmZYuMZTq5tCGASSzdTx5MghBq5vCP4Q4djSg3GgGHGKW8",
+    "description": "A spiritual horse that guides travelers through dreams.",
+    "attributes": [
+        { "trait_type": "Rarity", "value": "Rare" },
+        { "trait_type": "Guidance", "value": "Vision Seeker" }
+    ]
+}

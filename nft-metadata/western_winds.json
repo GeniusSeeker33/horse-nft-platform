@@ -1,0 +1,9 @@
+{
+    "name": "Western Winds",
+    "image": "https://right-apricot-lark.myfilebase.com/ipfs/QmQhad7cVqjGVbfdfSAP6oVqTLc7fbbYLweYZ8bvosip7X",
+    "description": "A horse that rides with the freedom of the western winds.",
+    "attributes": [
+        { "trait_type": "Rarity", "value": "Legendary" },
+        { "trait_type": "Speed", "value": "Wind Rider" }
+    ]
+}

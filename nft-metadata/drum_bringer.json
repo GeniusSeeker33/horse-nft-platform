@@ -1,0 +1,9 @@
+{
+    "name": "Drum Bringer",
+    "image": "https://right-apricot-lark.myfilebase.com/ipfs/QmcZJ5ZyxCpicNyH5fRHCNX8BgePjLmaFusc13paRfKJdv",
+    "description": "A mystical horse that echoes the heartbeat of the earth.",
+    "attributes": [
+        { "trait_type": "Rarity", "value": "Legendary" },
+        { "trait_type": "Sound", "value": "Echoing Drums" }
+    ]
+}

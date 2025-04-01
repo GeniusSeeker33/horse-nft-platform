@@ -1,0 +1,9 @@
+{
+    "name": "Stormbringer",
+    "image": "https://right-apricot-lark.myfilebase.com/ipfs/QmW6AH99oNoo9JEtzxjgjbYXYZBV193FggDFK4jvbHmnq8",
+    "description": "A horse that commands the power of storms.",
+    "attributes": [
+        { "trait_type": "Rarity", "value": "Mythical" },
+        { "trait_type": "Element", "value": "Storm" }
+    ]
+}

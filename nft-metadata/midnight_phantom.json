@@ -1,0 +1,9 @@
+{
+    "name": "Midnight Phantom",
+    "image": "https://right-apricot-lark.myfilebase.com/ipfs/QmZe92a51C5cMNagJPNscdZf5Qxinpu6fKuuxkkQwfNa8r",
+    "description": "A mysterious horse that gallops through the night.",
+    "attributes": [
+        { "trait_type": "Rarity", "value": "Mythical" },
+        { "trait_type": "Aura", "value": "Shadow" }
+    ]
+}

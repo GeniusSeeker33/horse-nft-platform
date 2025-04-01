@@ -1,0 +1,35 @@
+.catalog-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.nft-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nft-card {
+    border: 2px solid #ddd;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.nft-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.filters {
+    margin-bottom: 20px;
+}
+
+.filters select {
+    margin: 5px;
+    padding: 8px;
+    border-radius: 5px;
+}

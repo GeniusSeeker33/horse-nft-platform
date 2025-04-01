@@ -1,0 +1,9 @@
+{
+    "name": "Shadow Warrior",
+    "image": "https://right-apricot-lark.myfilebase.com/ipfs/QmNaahy8uXonEkqSNJ8LrPnmN9FDV3sk9Q3sFTuhgtcCWv",
+    "description": "A fearless warrior horse that thrives in the night.",
+    "attributes": [
+        { "trait_type": "Rarity", "value": "Legendary" },
+        { "trait_type": "Strength", "value": "Battle Ready" }
+    ]
+}
